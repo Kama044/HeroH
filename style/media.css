@@ -1,0 +1,291 @@
+@media(max-width:1000px){
+    .port__imgs{
+        max-width: 830px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .header{
+        height: 450px;
+    }
+    .port__img1{
+        max-width: 300px;
+        width: 100%;
+    }
+    .port__img2{
+        max-width: 500px;
+        width: 100%;
+    }
+    .port__img__top{
+        max-width: 830px;
+        width: 100%;
+    }
+    .intro__title{
+        font-size: 56px;
+        line-height: 100%;
+        margin: 20px 0;
+    }
+    .intro__bottom{
+        margin-bottom: 20px;
+    }
+    .agency__img{
+        max-width: 350px;
+        width: 100%;
+    }
+    .agency__link{
+        width: 140px;
+    }
+    .agency__card{
+        max-width: 450px;
+        width: 100%;
+    }
+    .center__info{
+        padding: 50px;
+    }
+    .posts__cards{
+        max-width: 450px;
+        width: 100%;
+        overflow: scroll;
+        gap: 20px;
+    }
+    .posts__card{
+        max-width: 220px;
+        width: 100%;
+    }
+    .posts__card-img{
+        width: 220px;
+    }
+}
+@media(max-width:850px){
+    .center__info{
+        gap: 10px;
+        flex-direction: column;
+        align-items: center;
+    }
+    .port__imgs{
+        max-width: 430px;
+        width: 100%;
+        overflow: scroll;
+    }
+    .port__title{
+        font-size: 22px;
+        line-height: 100%;
+    }
+    .posts{
+        padding-top: 40px;
+        margin-top: 40px;
+        padding-bottom: 40px;
+    }
+    .posts__title{
+        margin-bottom: 40px;
+    }
+}
+@media(max-width:750px){
+    .nav{
+        padding: 20px 0;
+    }
+    .header{
+        height: 400px;
+    }
+    .intro__title{
+        font-size: 50px;
+        line-height: 100%;
+        margin: 15px 0;
+    }
+    .intro__bottom{
+        margin-bottom: 15px;
+    }
+    .nav__list{
+        gap: 15px;
+    }
+    .agency{
+        margin-top: 40px;
+    }
+    .agency__info{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .agency__img{
+        max-width: 450px;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .agency__card{
+        max-width: 450px;
+        width: 100%;
+    }
+    .agency__title{
+        font-size: 20px;
+        line-height: 100%;
+        margin-bottom: 20px;
+    }
+    .agency__text{
+        margin-bottom: 25px;
+        line-height: 20px;
+    }
+    .agency__link{
+        width: 120px;
+    }
+    .agency__link-img{
+        width: 35px;
+    }
+    .agency__link-text{
+        font-size: 14px;
+        line-height: 100%;
+    }
+    .port__img-top{
+        margin-top: 20px;
+    }
+    .portfolio{
+        margin-top: 40px;
+    }
+    .port__info{
+        margin-bottom: 30px;
+    }
+    .posts__cards{
+        gap: 15px;
+    }
+    .posts{
+        padding-top: 30px;
+        margin-top: 30px;
+        padding-bottom: 30px;
+    }
+    .posts__title{
+        margin-bottom: 30px;
+    }
+}
+@media(max-width:650px){
+    .header{
+        position: relative;
+        overflow: hidden;
+    }
+    .nav__list{
+        position: absolute;
+        flex-direction: column;
+        background-color: #926FF6;
+        right: -200px;
+        top: 0;
+        padding: 50px;
+        align-items: center;
+        gap: 30px;
+        height: 100vh;
+        z-index: 99;
+        transition: 0.5s;
+        box-shadow: 0 0 10px white;
+    }
+    .menu{
+        display: block;
+        cursor: pointer;
+    }
+    .close{
+        display: block;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+    #inp:checked ~ .nav__list {
+        right: 0;
+    }
+    .nav{
+        padding: 15px 0;
+    }
+    .intro__btn{
+        width: 30px;
+    }
+    .intro__title{
+        font-size: 44px;
+        margin: 10px 0;
+    }
+    .intro__bottom{
+        margin-bottom: 10px;
+    }
+    .nav__list{
+        gap: 10px;
+    }
+    .agency{
+        margin-top: 30px;
+    }
+    .center__info{
+        padding: 40px;
+    }
+    .center__img{
+        width: 40px;
+        height: 40px;
+    }
+    .center{
+        margin-top: 30px;
+    }
+    .port__img-top{
+        margin-top: 15px;
+    }
+    .portfolio{
+        margin-top: 30px;
+    }
+    .port__info{
+        margin-bottom: 25px;
+    }
+    .posts__cards{
+        gap: 10px;
+    }
+    .posts{
+        padding-top: 25px;
+        margin-top: 25px;
+        padding-bottom: 25px;
+    }
+    .posts__title{
+        margin-bottom: 25px;
+    }
+}
+@media(max-width:500px){
+    .intro__title{
+        font-size: 36px;
+    }
+    .agency__img{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+    .agency__card{
+        width: 300px;
+    }
+    .agency{
+        margin-top: 20px;
+    }
+    .agency__title{
+        margin-bottom: 15px;
+    }
+    .agency__text{
+        margin-bottom: 15px;
+    }
+    .port__imgs{
+        max-width: 250px;
+        width: 100%;
+    }
+    .container{
+        max-width: 300px;
+        width: 100%;
+    }
+    .port__info{
+        height: 130px;
+        overflow: scroll;
+    }
+    .portfolio{
+        margin-top: 22px;
+    }
+    .port__info{
+        margin-bottom: 20px;
+    }
+    .posts__card{
+        max-width: 300px;
+        width: 100%;
+        gap: 7px;
+    }
+    .posts{
+        padding-top: 20px;
+        margin-top: 20px;
+        padding-bottom: 20px;
+    }
+    .posts__title{
+        margin-bottom: 20px;
+    }
+}
